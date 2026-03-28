@@ -1,0 +1,88 @@
+{
+    "GUBgCBOh": {
+        "def": {"pronoun": ["I; me"]}
+    },
+    "WbobPbxl": {
+        "def": {"pronoun": ["you (singular)"]}
+    },
+    "0qknOwHX": {
+        "def": {"pronoun": ["he; she, they (singular)"]}
+    },
+    "eYvAfhTA": {
+        "def": {"pronoun": ["we; us (exclusive)"]}
+    },
+    "246LYnyG": {
+        "def": {"pronoun": ["you (plural)"]}
+    },
+    "k37wnsvZ": {
+        "def": {"pronoun": ["they; them (plural)"]}
+    },
+    "GTdP0CKJ": {
+        "def": {"pronoun": ["we; us (inclusive)"]}
+    },
+    "JpBU99H5": {
+        "def": {"determiner": ["this"]}
+    },
+    "uzgEqR9p": {
+        "def": {"determiner": ["that"]}
+    },
+    "LIRzTRyx": {
+        "def": {"determiner": ["each; every; all"]}
+    },
+    "GF25J540": {
+        "def": {"adjective": ["last; previous"]}
+    },
+    "RYZZxac2": {
+        "def": {"adjective": ["current; present"]}
+    },
+    "rk07m7sU": {
+        "def": {"adjective": ["next; upcoming"]}
+    },
+    "rM2HTf0j": {
+        "def": {"verb": ["to come; to arrive"]}
+    },
+    "zan1k7Gb": {
+        "def": {"verb": ["to be born", "to create; to bear"]}
+    },
+    "t5Y9jZhB": {  
+        "def": {"verb": ["to enjoy; to like (to)"]}
+    },
+    "k5yy53vj": {
+        "def": {"verb": ["to eat"]}
+    },
+    "p6gl41OS": {
+        "def": {"verb": ["to play"]} 
+    },
+    "1SwhcNcu": {
+        "def": {"verb": ["copula; to be"],
+                "noun": ["existence; being"]}
+    },
+    "c2sMpZ9Z": {
+        "def": {"verb": ["to write"]}
+    },
+    "lYZNclqm": {
+        "def": {"noun": ["idea; concept"]}
+    },
+    "111szEf6": {
+        "def": {"noun": ["unit (of); piece (of)"]}
+    },
+    "3MJLUPfs": {
+        "def": {"noun": ["speech; an utterance", "language"]}
+    },
+    "SfcQvWHx": {
+        "def": {"noun": ["day; a 24-hour period"]}
+    },
+    "SwfMrDNx": {
+        "def": {"noun": ["unpleasantness; that which is disgusting"]}
+    },
+    "4tam24lW": {
+        "def": {"noun": ["a small cat", "mildred"]},
+        "par": ["49mwSlQd", "B0XJUEBG"]
+    },
+    "49mwSlQd": {
+        "def": {"noun": ["cat"]}
+    },
+    "B0XJUEBG": {
+        "def": {"adjective": ["small"]}
+    }
+}

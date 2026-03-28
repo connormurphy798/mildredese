@@ -1,6 +1,10 @@
 # prhi
 
+
 verb
 
-**definition(s):**
 - copula; to be
+
+noun
+
+- existence; being

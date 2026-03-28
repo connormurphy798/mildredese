@@ -18,10 +18,10 @@ def write_md(word, uid, lexicon_dict, uid_df):
             parents = [uid_df.loc[parent_uid]['word'] for parent_uid in entry['par']]
             compound = ", ".join(f"[{parent}](../{parent[0]}/{parent}.md)" for parent in parents)
             f.write(f"\ncompound of {compound}\n\n")
-        f.write(f"{entry['pos']}\n\n")
-        f.write("**definition(s):**\n")
-        for definition in entry['def']:
-            f.write(f"- {definition}\n")
+        for pos in entry['def']:
+            f.write(f"\n{pos}\n\n")
+            for definition in entry['def'][pos]:
+                f.write(f"- {definition}\n")
         
 
 if __name__ == "__main__":
@@ -29,8 +29,8 @@ if __name__ == "__main__":
 
     uid_df = pd.read_csv('uid.csv', header=None, names=['word'], index_col=1)
     print(uid_df)
-    lexicon_files = ['lexicon.json']
-    with open('lexicon.json', 'r') as f:
+    lexicon_files = ['definitions/lexicon.json']
+    with open('definitions/lexicon.json', 'r') as f:
         lexicon_dict = json.load(f)
         for uid in lexicon_dict:
             word = uid_df.loc[uid]['word']
