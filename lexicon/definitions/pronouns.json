@@ -1,0 +1,32 @@
+{
+    "GUBgCBOh": {
+        "def": {"pronoun": ["I; me"]}
+    },
+    "WbobPbxl": {
+        "def": {"pronoun": ["you (singular)"]}
+    },
+    "0qknOwHX": {
+        "def": {"pronoun": ["he; she, they (singular)"]}
+    },
+    "eYvAfhTA": {
+        "def": {"pronoun": ["we; us (exclusive)"]}
+    },
+    "246LYnyG": {
+        "def": {"pronoun": ["you (plural)"]}
+    },
+    "k37wnsvZ": {
+        "def": {"pronoun": ["they; them (plural)"]}
+    },
+    "GTdP0CKJ": {
+        "def": {"pronoun": ["we; us (inclusive)"]}
+    },
+    "JpBU99H5": {
+        "def": {"determiner": ["this"]}
+    },
+    "uzgEqR9p": {
+        "def": {"determiner": ["that"]}
+    },
+    "LIRzTRyx": {
+        "def": {"determiner": ["each; every; all"]}
+    }
+}

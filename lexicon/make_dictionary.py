@@ -29,12 +29,13 @@ if __name__ == "__main__":
 
     uid_df = pd.read_csv('uid.csv', header=None, names=['word'], index_col=1)
     print(uid_df)
-    lexicon_files = ['definitions/lexicon.json']
-    with open('definitions/lexicon.json', 'r') as f:
-        lexicon_dict = json.load(f)
-        for uid in lexicon_dict:
-            word = uid_df.loc[uid]['word']
-            print(word)
-            write_md(word, uid, lexicon_dict, uid_df)
+    # lexicon_files = ['pronouns.json', 'lexicon.json']
+    for filename in Path('definitions').iterdir():
+        with open(filename, 'r') as f:
+            lexicon_dict = json.load(f)
+            for uid in lexicon_dict:
+                word = uid_df.loc[uid]['word']
+                print(word)
+                write_md(word, uid, lexicon_dict, uid_df)
 
         
