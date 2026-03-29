@@ -19,7 +19,7 @@ def write_md(word, uid, lexicon_dict, uid_df):
             compound = ", ".join(f"[{parent}](../{parent[0]}/{parent}.md)" for parent in parents)
             f.write(f"\ncompound of {compound}\n\n")
         for pos in entry['def']:
-            f.write(f"\n{pos}\n\n")
+            f.write(f"\n_{pos}_\n\n")
             for definition in entry['def'][pos]:
                 f.write(f"- {definition}\n")
         
