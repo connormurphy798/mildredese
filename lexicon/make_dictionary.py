@@ -2,6 +2,10 @@ from pathlib import Path
 import pandas as pd
 import json
 
+def make_uid_df():
+    uid_df = pd.read_csv('uid.csv', header=None, names=['word'], index_col=1)
+    return uid_df
+
 def make_dictionary_folders():
     Path('dictionary').mkdir(exist_ok=True)
     for folder in ['a', 'b', 'd', 'e', 'f', 'g',
@@ -23,11 +27,17 @@ def write_md(word, uid, lexicon_dict, uid_df):
             for definition in entry['def'][pos]:
                 f.write(f"- {definition}\n")
         
+def remove_dictionary_entries():
+    for filename in Path('dictionary').iterdir():
+        if filename.is_dir():
+            for md_file in filename.iterdir():
+                md_file.unlink()
 
-if __name__ == "__main__":
+def make_dictionary():
+    remove_dictionary_entries()
     make_dictionary_folders()
 
-    uid_df = pd.read_csv('uid.csv', header=None, names=['word'], index_col=1)
+    uid_df = make_uid_df()
     count = 0
     for filename in Path('definitions').iterdir():
         with open(filename, 'r', encoding='utf-8') as f:
@@ -46,4 +56,6 @@ if __name__ == "__main__":
                         word = md_file.stem
                         f.write(f"- [{word}]({filename.name}/{md_file.name})\n")
 
+if __name__ == "__main__":
+    make_dictionary()
         

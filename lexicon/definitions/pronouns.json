@@ -18,7 +18,8 @@
         "def": {"pronoun": ["they; them (plural)"]}
     },
     "GTdP0CKJ": {
-        "def": {"pronoun": ["we; us (inclusive)"]}
+        "def": {"pronoun": ["we; us (inclusive)"]},
+        "par": ["eYvAfhTA", "246LYnyG"]
     },
     "JpBU99H5": {
         "def": {"determiner": ["this"]}
