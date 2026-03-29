@@ -22,8 +22,9 @@ def main():
         with open('uid.csv', 'a') as f:
             print(f"wrote:")
             for word in sys.argv[2:]:
-                f.write(f"\n{word},{uid(8)}")
-                print(f"{word},{uid(8)}")
+                id = uid(8)
+                f.write(f"\n{word},{id}")
+                print(f"{word},{id}")
             print("to uid.csv")
     else:
         for word in sys.argv[1:]:

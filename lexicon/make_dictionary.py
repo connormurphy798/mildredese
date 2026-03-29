@@ -28,8 +28,6 @@ if __name__ == "__main__":
     make_dictionary_folders()
 
     uid_df = pd.read_csv('uid.csv', header=None, names=['word'], index_col=1)
-    print(uid_df)
-    # lexicon_files = ['pronouns.json', 'lexicon.json']
     count = 0
     for filename in Path('definitions').iterdir():
         with open(filename, 'r', encoding='utf-8') as f:
