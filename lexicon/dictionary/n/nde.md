@@ -1,6 +1,6 @@
 # nde
 
 
-adjective
+_adjective_
 
 - current; present

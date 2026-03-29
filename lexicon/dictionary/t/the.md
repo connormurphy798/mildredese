@@ -1,6 +1,6 @@
 # the
 
 
-determiner
+_determiner_
 
 - each; every; all

@@ -1,6 +1,6 @@
-# stø
+# stÃ¸
 
 
-verb
+_verb_
 
 - to write

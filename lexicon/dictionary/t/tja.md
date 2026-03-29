@@ -1,6 +1,6 @@
 # tja
 
 
-pronoun
+_pronoun_
 
 - you (singular)

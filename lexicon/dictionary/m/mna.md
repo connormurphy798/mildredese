@@ -1,6 +1,6 @@
 # mna
 
 
-noun
+_noun_
 
 - idea; concept

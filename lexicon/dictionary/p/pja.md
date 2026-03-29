@@ -1,6 +1,6 @@
 # pja
 
 
-pronoun
+_pronoun_
 
 - I; me

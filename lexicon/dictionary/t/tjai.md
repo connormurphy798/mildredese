@@ -1,6 +1,6 @@
 # tjai
 
 
-pronoun
+_pronoun_
 
 - you (plural)

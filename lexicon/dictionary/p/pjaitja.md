@@ -1,6 +1,6 @@
 # pjaitja
 
 
-pronoun
+_pronoun_
 
 - we; us (inclusive)

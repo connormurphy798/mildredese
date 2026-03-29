@@ -1,6 +1,6 @@
 # ki
 
 
-verb
+_verb_
 
 - to eat

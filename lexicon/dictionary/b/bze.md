@@ -1,6 +1,6 @@
 # bze
 
 
-verb
+_verb_
 
 - to come; to arrive

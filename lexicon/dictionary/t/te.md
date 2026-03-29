@@ -1,7 +1,7 @@
 # te
 
 
-noun
+_noun_
 
 - speech; an utterance
 - language

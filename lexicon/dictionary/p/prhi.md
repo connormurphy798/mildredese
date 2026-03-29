@@ -1,10 +1,10 @@
 # prhi
 
 
-verb
+_verb_
 
 - copula; to be
 
-noun
+_noun_
 
 - existence; being

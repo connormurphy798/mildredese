@@ -1,6 +1,6 @@
 # kjai
 
 
-pronoun
+_pronoun_
 
 - they; them (plural)

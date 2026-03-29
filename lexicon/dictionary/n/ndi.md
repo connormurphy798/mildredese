@@ -1,6 +1,6 @@
 # ndi
 
 
-adjective
+_adjective_
 
 - last; previous

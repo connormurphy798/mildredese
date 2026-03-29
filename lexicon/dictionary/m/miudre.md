@@ -4,7 +4,7 @@
 compound of [miu](../m/miu.md), [dre](../d/dre.md)
 
 
-noun
+_noun_
 
 - a small cat
 - mildred
