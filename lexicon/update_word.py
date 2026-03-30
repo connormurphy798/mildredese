@@ -8,9 +8,9 @@ import make_dictionary
 def help():
     print("\nUsage:\n")
     print("To update a word and all compounds that contain it:")
-    print("\tpython update_compounds.py <word_to_modify> <modified_word>")
+    print("\tpython update_word.py <word_to_modify> <modified_word>")
     print("\nTo do the above and update dictionary:")
-    print("\tpython update_compounds.py <word_to_modify> <modified_word> --update-dictionary")
+    print("\tpython update_word.py <word_to_modify> <modified_word> --update-dictionary")
 
 def identify_compounds(uid_df):
     uid_word_dict = {}

@@ -2,6 +2,8 @@
 
 - [beu](b/beu.md)
 - [bze](b/bze.md)
+- [dhe](d/dhe.md)
+- [dhemiudre](d/dhemiudre.md)
 - [dho](d/dho.md)
 - [dre](d/dre.md)
 - [fe](f/fe.md)
@@ -25,8 +27,6 @@
 - [prhi](p/prhi.md)
 - [se](s/se.md)
 - [stø](s/stø.md)
-- [te](t/te.md)
-- [temiudre](t/temiudre.md)
 - [the](t/the.md)
 - [tja](t/tja.md)
 - [tjai](t/tjai.md)

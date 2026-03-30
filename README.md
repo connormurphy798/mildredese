@@ -1,10 +1,10 @@
-# Temiudre
+# Dhemiudre
 
-> **temiudre**, _noun_
+> **dhemiudre**, _noun_
 >
 > small cat speech
 
-Temiudre (or Mildredese in English) is an in-development [conlang](https://en.wikipedia.org/wiki/Constructed_language) inspired by my cat, Mildred.
+Dhemiudre (or Mildredese in English) is an in-development [conlang](https://en.wikipedia.org/wiki/Constructed_language) inspired by my cat, Mildred.
 
 The language is designed to facilitate improvisational singing, particularly with regard to cats and their activities.
 Its attributes are intended to ease constructing logical sentences while meeting the constraints inherent to writing lyrics in Western music.
@@ -13,13 +13,13 @@ This repository includes:
 
 | File/Directory | Description |
 | - | - |
-| `lexicon/` | Temiudre's lexicon. An in-progress Temiudre-to-English dictionary can be found in `lexicon/dictionary`. |
-| `generate.ipynb` | Code for my own use in generating valid Temiudre syllables. |
+| `lexicon/` | Dhemiudre's lexicon. An in-progress Dhemiudre-to-English dictionary can be found in `lexicon/dictionary`. |
+| `generate.ipynb` | Code for my own use in generating valid Dhemiudre syllables. |
 
 
 ## Phonology
 
-Temiudre's consonant and vowel inventories are below. Phonemes are given as their orthographical representation in Temiudre.
+Dhemiudre's consonant and vowel inventories are below. Phonemes are given as their orthographical representation in Dhemiudre.
 
 <table>
   <tr>
@@ -118,8 +118,8 @@ Phonemes sharing a manner and place of articulation differ in voicing (fricative
 
 Front vowels are distinguished on roundedness. Back vowels are rounded, while the central vowel is unrounded.
 
-Temiudre employs the following syllable structure:
+Dhemiudre employs the following syllable structure:
 
     (C)(C)(S)V(S)
 
-where C denotes consonants, S semivowels, and V vowels. A detailed overview of Temiudre's phonotactic rules can be found in `generate.ipynb`.
+where C denotes consonants, S semivowels, and V vowels. A detailed overview of Dhemiudre's phonotactic rules can be found in `generate.ipynb`.
