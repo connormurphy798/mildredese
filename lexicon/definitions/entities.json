@@ -19,5 +19,13 @@
     "tTQY6wjb": {
         "def": {"noun": ["a mouse", "a cat toy"],
                 "verb": ["to chase a mouse; to play with a cat toy"]}
+    },
+    "ADZqVjpq": {
+        "def": {"noun": ["water", "a beverage"],
+                "verb": ["to drink"]}
+    },
+    "kkNKMuhW": {
+        "def": {"noun": ["fountain; a source of water"]},
+        "par": ["zan1k7Gb", "ADZqVjpq"]
     }
 }

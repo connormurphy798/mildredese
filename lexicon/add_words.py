@@ -9,8 +9,8 @@ def uid(n):
 
 def help():
     print("Usage:")
-    print("\tpython uid.py # generate a random alphanumeric string of length 8")
-    print("\tpython uid.py <word_1> <word_2> ... <word_n> # generate n (word, string) pairs")
+    print("\tpython add_words.py # generate a random alphanumeric string of length 8")
+    print("\tpython add_words.py <word_1> <word_2> ... <word_n> # generate n (word, string) pairs")
 
 def main():
     if len(sys.argv) == 1:
