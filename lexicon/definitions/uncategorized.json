@@ -1,14 +1,30 @@
 {
     "GF25J540": {
-        "def": {"adjective": ["last; previous"]}
+        "def": {
+            "adjective": [
+                "last; previous"
+            ]
+        }
     },
     "RYZZxac2": {
-        "def": {"adjective": ["current; present"]}
+        "def": {
+            "adjective": [
+                "current; present"
+            ]
+        }
     },
     "rk07m7sU": {
-        "def": {"adjective": ["next; upcoming"]}
+        "def": {
+            "adjective": [
+                "next; upcoming"
+            ]
+        }
     },
     "B0XJUEBG": {
-        "def": {"adjective": ["small; tiny"]}
+        "def": {
+            "adjective": [
+                "small; tiny"
+            ]
+        }
     }
 }
