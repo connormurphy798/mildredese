@@ -19,7 +19,7 @@ def help():
 def write_definition(uid, pos, definition, parents, file_path):
     with open(file_path, 'r') as f:
         data = json.load(f)
-    data[uid] = {"def": {pos: definition}}
+    data[uid] = {"def": {pos: [definition]}}
     if parents:
         data[uid]["par"] = parents
     with open(file_path, 'w') as f:

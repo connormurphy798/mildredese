@@ -27,13 +27,37 @@
             ]
         }
     },
-    "7kXz8q4Z": {
+    "wbFNcBIE": {
         "def": {
-            "noun": "today"
+            "noun": [
+                "today"
+            ]
         },
         "par": [
             "SfcQvWHx",
             "RYZZxac2"
+        ]
+    },
+    "eksHTrfW": {
+        "def": {
+            "noun": [
+                "yesterday"
+            ]
+        },
+        "par": [
+            "SfcQvWHx",
+            "GF25J540"
+        ]
+    },
+    "20Lknorn": {
+        "def": {
+            "noun": [
+                "tomorrow"
+            ]
+        },
+        "par": [
+            "SfcQvWHx",
+            "rk07m7sU"
         ]
     }
 }

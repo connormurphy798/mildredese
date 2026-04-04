@@ -34,5 +34,8 @@
 - [tja](t/tja.md)
 - [tjai](t/tjai.md)
 - [va](v/va.md)
+- [vanda](v/vanda.md)
+- [vande](v/vande.md)
+- [vandi](v/vandi.md)
 - [wi](w/wi.md)
 - [zvo](z/zvo.md)
