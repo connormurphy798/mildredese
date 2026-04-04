@@ -16,14 +16,24 @@ def help():
     print("\tpython add_words.py <word_1> <word_2> ... <word_n> # generate n (word, string) pairs")
     print("\tpython add_words.py -w <word_1> <word_2> ... <word_n> # generate n (word, string) pairs and write to uid.csv")
 
-def write_definition(uid, pos, definition, file_path):
+def write_definition(uid, pos, definition, parents, file_path):
     with open(file_path, 'r') as f:
         data = json.load(f)
     data[uid] = {"def": {pos: definition}}
+    if parents:
+        data[uid]["par"] = parents
     with open(file_path, 'w') as f:
         json.dump(data, f, indent=4)
 
-def handle_errors(tag_data):
+def make_uid_dict():
+    uid_dict = {}
+    with open('uid.csv', 'r') as f:
+        for line in f:
+            word, uid = line.strip().split(',')
+            uid_dict[word] = uid
+    return uid_dict
+
+def handle_errors(tag_data, uid_dict):
     if "--default" in tag_data:
         print("Error: unrecognized arguments:", " ".join(tag_data["--default"]))
         exit(1)
@@ -35,9 +45,6 @@ def handle_errors(tag_data):
             print("Error: --help cannot be used with other tags.")
             exit(1)
     if "--write" in tag_data:
-        if not tag_data["--write"]:
-            print("Error: --write requires at least one argument.")
-            exit(1)
         if len(tag_data["--write"]) != 1:
             print("Error: --write requires exactly one argument.")
             exit(1)
@@ -64,14 +71,29 @@ def handle_errors(tag_data):
         if "--define" not in tag_data:
             print("Error: --file requires --define to specify the word definition.")
             exit(1)
+    if "--parents" in tag_data:
+        if len(tag_data["--parents"]) < 2:
+            print("Error: --parents requires at least two arguments.")
+            exit(1)
+        if "--define" not in tag_data:
+            print("Error: --parents requires --define to specify word definition.")
+            exit(1)
+        if "".join(tag_data["--parents"]) != tag_data["--write"][0]:
+            print("Error: --parents must compound to produce the word specified by --write.")
+            exit(1)
+        for parent in tag_data["--parents"]:
+            if parent not in uid_dict:
+                print(f"Error: parent word {parent} not found in uid.csv.")
+                exit(1)
     
 
 def main():
     if len(sys.argv) == 1:
         print(uid(8))
-    tags = [("--help", "-h"), ("--write", "-w"), ("--file", "-f"), ("--define", "-d")]
+    tags = [("--help", "-h"), ("--write", "-w"), ("--define", "-d"), ("--file", "-f"), ("--parents", "-p")]
     tag_data = user_input.organize_tags(tags, sys.argv) # user_input.organize tags always records long tag
-    handle_errors(tag_data)
+    uid_dict = make_uid_dict()
+    handle_errors(tag_data, uid_dict)
 
     if "--help" in tag_data:
         help()
@@ -91,10 +113,18 @@ def main():
     else:
         def_file = "definitions/uncategorized.json"
 
+    if "--parents" in tag_data:
+        parents = [uid_dict[parent] for parent in tag_data["--parents"]]
+    else:
+        parents = []
+
     if "--define" in tag_data:
         pos = tag_data["--define"][0]
         definition = tag_data["--define"][1]
-        write_definition(word_uid, pos, definition, def_file)
+        write_definition(word_uid, pos, definition, parents, def_file)
+
+    
+
     
 
 if __name__ == "__main__":

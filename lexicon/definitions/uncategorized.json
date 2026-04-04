@@ -27,9 +27,13 @@
             ]
         }
     },
-    "L8T0hVVE": {
+    "7kXz8q4Z": {
         "def": {
-            "noun": "my thingy"
-        }
+            "noun": "today"
+        },
+        "par": [
+            "SfcQvWHx",
+            "RYZZxac2"
+        ]
     }
 }
