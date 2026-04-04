@@ -1,7 +1,6 @@
 import random
 import string
 import sys
-from bidict import bidict
 
 def uid(n):
     """Generate a random alphanumeric string of length n."""
@@ -11,6 +10,7 @@ def help():
     print("Usage:")
     print("\tpython add_words.py # generate a random alphanumeric string of length 8")
     print("\tpython add_words.py <word_1> <word_2> ... <word_n> # generate n (word, string) pairs")
+    print("\tpython add_words.py -w <word_1> <word_2> ... <word_n> # generate n (word, string) pairs and write to uid.csv")
 
 def main():
     if len(sys.argv) == 1:

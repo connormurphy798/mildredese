@@ -1,6 +1,7 @@
 # Temiudred lexicon
 
 - [beu](b/beu.md)
+- [bu](b/bu.md)
 - [bze](b/bze.md)
 - [dhe](d/dhe.md)
 - [dhemiudre](d/dhemiudre.md)
