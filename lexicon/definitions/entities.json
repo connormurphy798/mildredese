@@ -1,31 +1,133 @@
 {
     "4tam24lW": {
-        "def": {"noun": ["a small cat", "mildred"]},
-        "par": ["49mwSlQd", "B0XJUEBG"]
+        "def": {
+            "noun": [
+                "a small cat",
+                "mildred"
+            ]
+        },
+        "par": [
+            "49mwSlQd",
+            "B0XJUEBG"
+        ]
     },
     "49mwSlQd": {
-        "def": {"noun": ["cat"]}
+        "def": {
+            "noun": [
+                "cat"
+            ]
+        }
     },
     "ziii57Bq": {
-        "def": {"noun": ["mildred food; kibbles"]},
-        "par": ["k5yy53vj", "lP5YgZyq"]
+        "def": {
+            "noun": [
+                "mildred food; kibbles"
+            ]
+        },
+        "par": [
+            "k5yy53vj",
+            "lP5YgZyq"
+        ]
     },
     "lP5YgZyq": {
-        "def": {"noun": ["a small object; a speck"]}
+        "def": {
+            "noun": [
+                "a small object; a speck"
+            ]
+        }
     },
     "md8CaBDW": {
-        "def": {"noun": ["a doer; an actor; one who performs an action in a particular situation"]}
+        "def": {
+            "noun": [
+                "a doer; an actor; one who performs an action in a particular situation"
+            ]
+        }
     },
     "tTQY6wjb": {
-        "def": {"noun": ["a mouse", "a cat toy"],
-                "verb": ["to chase a mouse; to play with a cat toy"]}
+        "def": {
+            "noun": [
+                "a mouse",
+                "a cat toy"
+            ],
+            "verb": [
+                "to chase a mouse; to play with a cat toy"
+            ]
+        }
     },
     "ADZqVjpq": {
-        "def": {"noun": ["water", "a beverage"],
-                "verb": ["to drink"]}
+        "def": {
+            "noun": [
+                "water",
+                "a beverage"
+            ],
+            "verb": [
+                "to drink"
+            ]
+        }
     },
     "kkNKMuhW": {
-        "def": {"noun": ["fountain; a source of water"]},
-        "par": ["zan1k7Gb", "ADZqVjpq"]
+        "def": {
+            "noun": [
+                "fountain; a source of water"
+            ]
+        },
+        "par": [
+            "zan1k7Gb",
+            "ADZqVjpq"
+        ]
+    },
+    "D5VNEt3b": {
+        "def": {
+            "noun": [
+                "a mildredese speaker"
+            ]
+        },
+        "par": [
+            "md8CaBDW",
+            "vspr6nXx"
+        ]
+    },
+    "NSKSeqbJ": {
+        "def": {
+            "noun": [
+                "a person; a sentient entity"
+            ]
+        }
+    },
+    "rSqSFFKe": {
+        "def": {
+            "noun": [
+                "the creator of dhemiudre"
+            ]
+        },
+        "par": [
+            "NSKSeqbJ",
+            "BJN48sVw"
+        ]
+    },
+    "kS4rOQWj": {
+        "def": {
+            "noun": [
+                "bird"
+            ]
+        }
+    },
+    "AwBiwcg1": {
+        "def": {
+            "noun": [
+                "squirrel"
+            ]
+        }
+    },
+    "UCtGZXQk": {
+        "def": {
+            "noun": [
+                "squirrel-bird"
+            ]
+        },
+        "par": [
+            "kS4rOQWj",
+            "AwBiwcg1"
+        ]
     }
 }

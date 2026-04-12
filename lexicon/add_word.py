@@ -100,7 +100,7 @@ def main():
         return
 
     if "--write" in tag_data:
-        with open('uid.csv', 'a') as f:
+        with open('uid.csv', 'a', encoding='utf-8') as f:
             print(f"wrote:")
             for word in tag_data["--write"]:
                 word_uid = uid(8)

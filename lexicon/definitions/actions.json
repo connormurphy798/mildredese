@@ -1,28 +1,86 @@
 {
     "rM2HTf0j": {
-        "def": {"verb": ["to come; to arrive"]}
+        "def": {
+            "verb": [
+                "to come; to arrive"
+            ]
+        }
     },
     "zan1k7Gb": {
-        "def": {"verb": ["to be born", "to create; to bear"],
-                "noun": ["origin; source; cause"]}
+        "def": {
+            "verb": [
+                "to be born",
+                "to create; to bear"
+            ],
+            "noun": [
+                "origin; source; cause"
+            ]
+        }
     },
-    "t5Y9jZhB": {  
-        "def": {"verb": ["to enjoy; to like (to)"]}
+    "t5Y9jZhB": {
+        "def": {
+            "verb": [
+                "to enjoy; to like (to)"
+            ]
+        }
     },
     "k5yy53vj": {
-        "def": {"verb": ["to eat"]}
+        "def": {
+            "verb": [
+                "to eat"
+            ],
+            "noun": [
+                "food"
+            ]
+        }
     },
     "p6gl41OS": {
-        "def": {"verb": ["to play"]} 
+        "def": {
+            "verb": [
+                "to play"
+            ],
+            "noun": [
+                "game; play"
+            ]
+        }
     },
     "1SwhcNcu": {
-        "def": {"verb": ["copula; to be"],
-                "noun": ["existence; being"]}
+        "def": {
+            "verb": [
+                "copula; to be"
+            ],
+            "noun": [
+                "existence; being"
+            ]
+        }
     },
     "c2sMpZ9Z": {
-        "def": {"verb": ["to write"]}
+        "def": {
+            "verb": [
+                "to write"
+            ]
+        }
     },
     "P6nJYgcW": {
-        "def": {"verb": ["to sleep", "to relax; to chill"]}
+        "def": {
+            "verb": [
+                "to sleep",
+                "to relax; to chill"
+            ]
+        }
+    },
+    "GIC0KM5N": {
+        "def": {
+            "verb": [
+                "to experience; to undergo"
+            ]
+        }
+    },
+    "7LLJ4JZU": {
+        "def": {
+            "verb": [
+                "to provide; to give"
+            ]
+        }
     }
 }
