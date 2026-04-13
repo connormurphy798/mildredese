@@ -47,10 +47,11 @@
         "def": {
             "noun": [
                 "a mouse",
-                "a cat toy"
+                "a small, stuffed cat toy"
             ],
             "verb": [
-                "to chase a mouse; to play with a cat toy"
+                "to chase a mouse",
+                "to play with a small, stuffed cat toy"
             ]
         }
     },
@@ -109,6 +110,12 @@
         "def": {
             "noun": [
                 "bird"
+            ],
+            "verb": [
+                "to be angry; to mald"
+            ],
+            "adjective": [
+                "angry; malding"
             ]
         }
     },
@@ -128,6 +135,31 @@
         "par": [
             "kS4rOQWj",
             "AwBiwcg1"
+        ]
+    },
+    "986SE2Sf": {
+        "def": {
+            "noun": [
+                "a thing for sitting on; a couch, cushion, or chair"
+            ]
+        }
+    },
+    "pul0stnK": {
+        "def": {
+            "noun": [
+                "a cat toy"
+            ]
+        }
+    },
+    "1ABnmvBY": {
+        "def": {
+            "noun": [
+                "a feather toy"
+            ]
+        },
+        "par": [
+            "pul0stnK",
+            "kS4rOQWj"
         ]
     }
 }

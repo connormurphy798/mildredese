@@ -27,7 +27,7 @@ def write_definition(uid, pos, definition, parents, file_path):
 
 def make_uid_dict():
     uid_dict = {}
-    with open('uid.csv', 'r') as f:
+    with open('uid.csv', 'r', encoding='utf-8') as f:
         for line in f:
             word, uid = line.strip().split(',')
             uid_dict[word] = uid

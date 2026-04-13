@@ -5,10 +5,6 @@ _interjection_
 
 - conveys surprise, either approvingly or disapprovingly
 
-_adjective_
-
-- intensifier, as in 'very' or 'extremely'
-
 _particle_
 
-- used to form an imperative phrase
+- used to (optionally) form a question, particularly one which is rhetorical or has a surprising answer

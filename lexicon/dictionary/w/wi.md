@@ -4,8 +4,9 @@
 _noun_
 
 - a mouse
-- a cat toy
+- a small, stuffed cat toy
 
 _verb_
 
-- to chase a mouse; to play with a cat toy
+- to chase a mouse
+- to play with a small, stuffed cat toy
