@@ -2,7 +2,7 @@
     "GUBgCBOh": {
         "def": {
             "pronoun": [
-                "I; me"
+                "I, me"
             ]
         }
     },
@@ -16,14 +16,14 @@
     "0qknOwHX": {
         "def": {
             "pronoun": [
-                "he; she, they (singular)"
+                "he, she, they (singular)"
             ]
         }
     },
     "eYvAfhTA": {
         "def": {
             "pronoun": [
-                "we; us (exclusive)"
+                "we, us (exclusive)"
             ]
         }
     },
@@ -37,14 +37,14 @@
     "k37wnsvZ": {
         "def": {
             "pronoun": [
-                "they; them (plural)"
+                "they, them (plural)"
             ]
         }
     },
     "GTdP0CKJ": {
         "def": {
             "pronoun": [
-                "we; us (inclusive)"
+                "we, us (inclusive)"
             ]
         },
         "par": [
@@ -69,7 +69,7 @@
     "LIRzTRyx": {
         "def": {
             "determiner": [
-                "each; every; all"
+                "each, every, all"
             ]
         }
     }

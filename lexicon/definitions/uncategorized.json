@@ -2,28 +2,28 @@
     "GF25J540": {
         "def": {
             "adjective": [
-                "last; previous"
+                "last, previous"
             ]
         }
     },
     "RYZZxac2": {
         "def": {
             "adjective": [
-                "current; present"
+                "current, present"
             ]
         }
     },
     "rk07m7sU": {
         "def": {
             "adjective": [
-                "next; upcoming"
+                "next, upcoming"
             ]
         }
     },
     "B0XJUEBG": {
         "def": {
             "adjective": [
-                "small; tiny"
+                "small, tiny"
             ]
         }
     },
@@ -66,5 +66,16 @@
                 "cool, sick"
             ]
         }
+    },
+    "xDuanqm6": {
+        "def": {
+            "noun": [
+                "every day"
+            ]
+        },
+        "par": [
+            "SfcQvWHx",
+            "LIRzTRyx"
+        ]
     }
 }
