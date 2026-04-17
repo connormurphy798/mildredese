@@ -3,4 +3,4 @@
 
 _determiner_
 
-- each; every; all
+- each, every, all

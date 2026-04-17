@@ -3,4 +3,4 @@
 
 _pronoun_
 
-- he; she, they (singular)
+- he, she, they (singular)

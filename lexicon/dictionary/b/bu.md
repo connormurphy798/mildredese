@@ -4,4 +4,4 @@
 _verb_
 
 - to sleep
-- to relax; to chill
+- to relax, to chill

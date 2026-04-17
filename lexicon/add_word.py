@@ -19,9 +19,18 @@ def help():
 def write_definition(uid, pos, definition, parents, file_path):
     with open(file_path, 'r') as f:
         data = json.load(f)
-    data[uid] = {"def": {pos: [definition]}}
-    if parents:
-        data[uid]["par"] = parents
+    if uid in data:
+        if "def" in data[uid]:
+            if pos in data[uid]["def"]:
+                data[uid]["def"][pos].append(definition)
+            else:
+                data[uid]["def"][pos] = [definition]
+        else:
+            data[uid]["def"] = {pos: [definition]}
+    else:
+        data[uid] = {"def": {pos: [definition]}}
+        if parents:
+            data[uid]["par"] = parents
     with open(file_path, 'w') as f:
         json.dump(data, f, indent=4)
 
@@ -55,8 +64,10 @@ def handle_errors(tag_data, uid_dict):
         if "--write" not in tag_data:
             print("Error: --define requires --write to specify a word.")
             exit(1)
-        if len(tag_data["--define"]) != 2:
-            print("Error: --define requires exactly two arguments: a part of speech and a definition (in quotes if multiple words).")
+        if len(tag_data["--define"]) % 2 != 0:
+            print("Error: --define arguments must come in pairs of part of speech and definition.")
+            print("- use quotes to give multi-word definitions")
+            print("- use a plus sign (+) to separate multiple definitions for the same part of speech")
             exit(1)
     if "--file" in tag_data:
         if "--write" not in tag_data:
@@ -119,9 +130,12 @@ def main():
         parents = []
 
     if "--define" in tag_data:
-        pos = tag_data["--define"][0]
-        definition = tag_data["--define"][1]
-        write_definition(word_uid, pos, definition, parents, def_file)
+        for i in range(0, len(tag_data["--define"]), 2):
+            pos = tag_data["--define"][i]
+            definitions = [definition.strip() for definition in tag_data["--define"][i + 1].split("+")]
+            print(pos, definitions)
+            for definition in definitions:
+                write_definition(word_uid, pos, definition, parents, def_file)
 
     
 

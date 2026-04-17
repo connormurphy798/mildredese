@@ -3,4 +3,4 @@
 
 _pronoun_
 
-- we; us (exclusive)
+- we, us (exclusive)

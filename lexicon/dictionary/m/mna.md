@@ -3,4 +3,4 @@
 
 _noun_
 
-- idea; concept
+- idea, concept

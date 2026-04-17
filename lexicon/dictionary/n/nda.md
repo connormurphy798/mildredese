@@ -3,4 +3,4 @@
 
 _adjective_
 
-- next; upcoming
+- next, upcoming

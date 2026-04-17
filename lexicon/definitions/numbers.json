@@ -1,0 +1,42 @@
+{
+    "XYtn1eUp": {
+        "def": {
+            "numeral": [
+                "zero"
+            ],
+            "noun": [
+                "nothing",
+                "falsehood"
+            ],
+            "adjective": [
+                "no; a lack of"
+            ],
+            "adverb": [
+                "not; negates a verb to which it is applied"
+            ],
+            "interjection": [
+                "used to express dissent or displeasure"
+            ]
+        }
+    },
+    "z0uIXa5w": {
+        "def": {
+            "numeral": [
+                "one"
+            ],
+            "noun": [
+                "truth"
+            ],
+            "interjection": [
+                "expressing assent or excitement, as in 'yes'",
+                "used at the end of a phrase for emphasis"
+            ],
+            "adverb": [
+                "very; extremely"
+            ],
+            "particle": [
+                "used to soften or make more polite an imperative"
+            ]
+        }
+    }
+}

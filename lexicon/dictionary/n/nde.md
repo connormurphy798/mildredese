@@ -3,4 +3,4 @@
 
 _adjective_
 
-- current; present
+- current, present

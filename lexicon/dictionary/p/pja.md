@@ -3,4 +3,4 @@
 
 _pronoun_
 
-- I; me
+- I, me

@@ -3,4 +3,4 @@
 
 _pronoun_
 
-- they; them (plural)
+- they, them (plural)

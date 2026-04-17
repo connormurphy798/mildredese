@@ -3,4 +3,4 @@
 
 _verb_
 
-- to provide; to give
+- to provide, to give

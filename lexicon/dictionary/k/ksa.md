@@ -7,4 +7,4 @@ _verb_
 
 _noun_
 
-- game; play
+- game, play

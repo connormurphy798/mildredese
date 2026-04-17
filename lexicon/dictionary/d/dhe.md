@@ -3,5 +3,5 @@
 
 _noun_
 
-- speech; an utterance
+- speech, an utterance
 - language

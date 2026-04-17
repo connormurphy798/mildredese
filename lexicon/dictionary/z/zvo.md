@@ -3,8 +3,8 @@
 
 _noun_
 
-- unpleasantness; that which is disgusting
+- unpleasantness, that which is disgusting
 
 _adjective_
 
-- unpleasant; disgusting
+- unpleasant, disgusting

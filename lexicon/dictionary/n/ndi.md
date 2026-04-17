@@ -3,4 +3,4 @@
 
 _adjective_
 
-- last; previous
+- last, previous

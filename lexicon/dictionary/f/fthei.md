@@ -3,4 +3,4 @@
 
 _verb_
 
-- to enjoy; to like (to)
+- to enjoy, to like (to)

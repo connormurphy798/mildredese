@@ -3,4 +3,4 @@
 
 _adjective_
 
-- small; tiny
+- small, tiny

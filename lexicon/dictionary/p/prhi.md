@@ -3,8 +3,8 @@
 
 _verb_
 
-- copula; to be
+- copula, to be
 
 _noun_
 
-- existence; being
+- existence, being

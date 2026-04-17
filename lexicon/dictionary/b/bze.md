@@ -3,4 +3,4 @@
 
 _verb_
 
-- to come; to arrive
+- to come, to arrive

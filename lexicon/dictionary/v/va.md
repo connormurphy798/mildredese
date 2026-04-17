@@ -3,4 +3,4 @@
 
 _noun_
 
-- day; a 24-hour period
+- day, a 24-hour period
