@@ -2,8 +2,8 @@ from pathlib import Path
 import pandas as pd
 import json
 
-def make_uid_df():
-    uid_df = pd.read_csv('uid.csv', header=None, names=['word'], index_col=1)
+def make_uid_df(file='uid.csv'):
+    uid_df = pd.read_csv(file, header=None, names=['word'], index_col=1)
     return uid_df
 
 def make_dictionary_folders():
