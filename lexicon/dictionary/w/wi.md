@@ -8,5 +8,5 @@ _noun_
 
 _verb_
 
-- to chase a mouse
-- to play with a small, stuffed cat toy
+- _(intransitive)_ to chase a mouse
+- _(intransitive)_ to play with a small, stuffed cat toy

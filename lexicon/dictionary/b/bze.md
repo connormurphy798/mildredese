@@ -3,4 +3,5 @@
 
 _verb_
 
-- to come, to arrive
+- _(intransitive)_ to come, to arrive
+- _(transitive)_ to arrive (at)

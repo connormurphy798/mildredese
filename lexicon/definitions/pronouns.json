@@ -16,7 +16,7 @@
     "0qknOwHX": {
         "def": {
             "pronoun": [
-                "he, she, they (singular)"
+                "he, she, it, they (singular)"
             ]
         }
     },
@@ -70,6 +70,13 @@
         "def": {
             "determiner": [
                 "each, every, all"
+            ]
+        }
+    },
+    "5b2Vk7F9": {
+        "def": {
+            "pronoun": [
+                "used as an object pronoun in reflexive constructions"
             ]
         }
     }

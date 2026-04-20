@@ -3,8 +3,8 @@
 
 _verb_
 
-- to be born
-- to create, to bear
+- _(intransitive)_ to be born
+- _(transitive)_ to create, to bear
 
 _noun_
 

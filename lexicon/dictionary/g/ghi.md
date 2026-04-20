@@ -3,4 +3,4 @@
 
 _verb_
 
-- to provide, to give
+- _(ditransitive)_ to provide, to give (_DO_ something) (_IO_ to someone)

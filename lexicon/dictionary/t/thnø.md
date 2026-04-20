@@ -3,4 +3,4 @@
 
 _verb_
 
-- to experience, to undergo
+- _(transitive)_ to experience, to undergo

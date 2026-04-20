@@ -3,4 +3,4 @@
 
 _verb_
 
-- to write
+- _(transitive)_ to write

@@ -19,10 +19,10 @@ def organize_tags(tags, sys_args):
     user_input = {}
     for i in range(len(tag_indices)):
         tag, index = tag_indices[i]
-        if i == len(tag_indices) - 1:
+        if i == len(tag_indices)-1:
             user_input[tag] = sys_args[index+1:]
         else:
-            next_index = tag_indices[i + 1][1]
+            next_index = tag_indices[i+1][1]
             user_input[tag] = sys_args[index+1:next_index]
     if tag_indices[0][1] > 1:
         user_input["--default"] = sys_args[1:tag_indices[0][1]]

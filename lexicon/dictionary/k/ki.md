@@ -3,7 +3,8 @@
 
 _verb_
 
-- to eat
+- _(intransitive)_ to eat
+- _(transitive)_ to eat (something)
 
 _noun_
 

@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 
 import user_input
+import make_dictionary
 
 def uid(n):
     """Generate a random alphanumeric string of length n."""
@@ -96,12 +97,16 @@ def handle_errors(tag_data, uid_dict):
             if parent not in uid_dict:
                 print(f"Error: parent word {parent} not found in uid.csv.")
                 exit(1)
+    if "--update-dictionary" in tag_data:
+        if tag_data["--update-dictionary"]:
+            print("Error: --update-dictionary takes no arguments.")
+            exit(1)
     
 
 def main():
     if len(sys.argv) == 1:
         print(uid(8))
-    tags = [("--help", "-h"), ("--write", "-w"), ("--define", "-d"), ("--file", "-f"), ("--parents", "-p")]
+    tags = [("--help", "-h"), ("--write", "-w"), ("--define", "-d"), ("--file", "-f"), ("--parents", "-p"), ("--update-dictionary", "-u")]
     tag_data = user_input.organize_tags(tags, sys.argv) # user_input.organize tags always records long tag
     uid_dict = make_uid_dict()
     handle_errors(tag_data, uid_dict)
@@ -136,8 +141,8 @@ def main():
             for definition in definitions:
                 write_definition(word_uid, pos, definition, parents, def_file)
 
-    
-
+    if "--update-dictionary" in tag_data:
+        make_dictionary.make_dictionary()
     
 
 if __name__ == "__main__":

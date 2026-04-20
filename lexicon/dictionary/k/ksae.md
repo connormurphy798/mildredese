@@ -3,4 +3,4 @@
 
 _verb_
 
-- to play angrily or with gusto
+- _(intransitive)_ to play angrily or with gusto
