@@ -16,7 +16,7 @@ _interjection_
 
 _adverb_
 
-- very; extremely
+- very; extremely; really
 
 _particle_
 

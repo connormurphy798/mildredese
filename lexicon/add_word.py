@@ -133,7 +133,6 @@ def main():
         for i in range(0, len(tag_data["--define"]), 2):
             pos = tag_data["--define"][i]
             definitions = [definition.strip() for definition in tag_data["--define"][i + 1].split("+")]
-            print(pos, definitions)
             for definition in definitions:
                 write_definition(word_uid, pos, definition, parents, def_file)
 
