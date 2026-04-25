@@ -13,6 +13,7 @@ _interjection_
 
 - expressing assent or excitement, as in 'yes'
 - used at the end of a phrase for emphasis
+- used as a greeting or farewell
 
 _adverb_
 
