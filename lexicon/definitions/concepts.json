@@ -18,13 +18,18 @@
             "noun": [
                 "speech, an utterance",
                 "language"
+            ],
+            "verb": [
+                "_(transitive)_ to speak (to someone)",
+                "_(transitive)_ to say (something)"
             ]
         }
     },
     "SfcQvWHx": {
         "def": {
             "noun": [
-                "day, a 24-hour period"
+                "day, a 24-hour period",
+                "a calendar date or day of the week"
             ]
         }
     },
@@ -58,6 +63,13 @@
             "verb": [
                 "to be called",
                 "to assign a name to"
+            ]
+        }
+    },
+    "a1nPJFf5": {
+        "def": {
+            "noun": [
+                "month"
             ]
         }
     }

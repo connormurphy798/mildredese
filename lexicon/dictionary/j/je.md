@@ -18,6 +18,7 @@ _interjection_
 _adverb_
 
 - very; extremely; really
+- only; just; merely
 
 _particle_
 

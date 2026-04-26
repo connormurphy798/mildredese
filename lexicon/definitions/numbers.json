@@ -33,11 +33,111 @@
                 "used as a greeting or farewell"
             ],
             "adverb": [
-                "very; extremely; really"
+                "very; extremely; really",
+                "only; just; merely"
             ],
             "particle": [
                 "used to soften or make more polite an imperative"
             ]
         }
+    },
+    "5osnvvHe": {
+        "def": {
+            "numeral": [
+                "two"
+            ]
+        }
+    },
+    "bLenVPza": {
+        "def": {
+            "numeral": [
+                "three"
+            ]
+        }
+    },
+    "3T3gLK57": {
+        "def": {
+            "numeral": [
+                "four"
+            ]
+        }
+    },
+    "S4S9bzcq": {
+        "def": {
+            "numeral": [
+                "five"
+            ]
+        }
+    },
+    "vQBy9s9D": {
+        "def": {
+            "numeral": [
+                "six"
+            ]
+        }
+    },
+    "HEJWiw75": {
+        "def": {
+            "numeral": [
+                "seven"
+            ]
+        }
+    },
+    "5Lm7u18Q": {
+        "def": {
+            "numeral": [
+                "eight"
+            ]
+        }
+    },
+    "s4DPLM75": {
+        "def": {
+            "numeral": [
+                "nine"
+            ]
+        }
+    },
+    "HOh1IRQv": {
+        "def": {
+            "numeral": [
+                "ten"
+            ]
+        }
+    },
+    "SH5WhvCS": {
+        "def": {
+            "numeral": [
+                "one hundred"
+            ]
+        }
+    },
+    "aICCO0hH": {
+        "def": {
+            "numeral": [
+                "one thousand"
+            ]
+        }
+    },
+    "dpr6g36O": {
+        "def": {
+            "numeral": [
+                "eleven"
+            ]
+        },
+        "par": [
+            "HOh1IRQv",
+            "z0uIXa5w"
+        ]
+    },
+    "0OmW7xw2": {
+        "def": {
+            "numeral": [
+                "twelve"
+            ]
+        },
+        "par": [
+            "HOh1IRQv",
+            "5osnvvHe"
+        ]
     }
 }

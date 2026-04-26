@@ -200,5 +200,26 @@
                 "pertaining to the place in which one lives"
             ]
         }
+    },
+    "PDLiFzGi": {
+        "def": {
+            "noun": [
+                "location, place",
+                "the location currently being discussed",
+                "room",
+                "building"
+            ]
+        }
+    },
+    "pUNN1Kr0": {
+        "def": {
+            "noun": [
+                "apartment, house; living space"
+            ]
+        },
+        "par": [
+            "PDLiFzGi",
+            "zVzUdTXo"
+        ]
     }
 }

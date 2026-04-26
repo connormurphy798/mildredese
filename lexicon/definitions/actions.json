@@ -21,7 +21,8 @@
     "t5Y9jZhB": {
         "def": {
             "verb": [
-                "_(transitive)_ to enjoy, to like"
+                "_(transitive)_ to enjoy, to like",
+                "_(transitive)_ to want"
             ]
         }
     },
@@ -94,6 +95,27 @@
                 "_(intransitive)_ to play angrily or with gusto"
             ]
         },
-        "par": ["p6gl41OS", "kS4rOQWj"]
+        "par": [
+            "p6gl41OS",
+            "kS4rOQWj"
+        ]
+    },
+    "uCtwkHcd": {
+        "def": {
+            "verb": [
+                "_(transitive)_ to see; to watch; to look (at)",
+                "_(intransitive)_ to look"
+            ],
+            "noun": [
+                "a sight; something seen"
+            ]
+        }
+    },
+    "AHDRUfuX": {
+        "def": {
+            "verb": [
+                "_(auxiliary)_ to be able to; to be capable of"
+            ]
+        }
     }
 }
