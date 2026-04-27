@@ -8,3 +8,4 @@ _verb_
 _noun_
 
 - existence, being
+- state, condition

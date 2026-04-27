@@ -4,3 +4,4 @@
 _noun_
 
 - idea, concept
+- brain, mind

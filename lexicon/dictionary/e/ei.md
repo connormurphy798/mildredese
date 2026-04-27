@@ -13,6 +13,7 @@ _noun_
 _adjective_
 
 - no; a lack of
+- bad
 
 _adverb_
 

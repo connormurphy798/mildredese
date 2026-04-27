@@ -9,6 +9,10 @@ _noun_
 
 - truth
 
+_adjective_
+
+- good
+
 _interjection_
 
 - expressing assent or excitement, as in 'yes'

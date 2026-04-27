@@ -55,7 +55,8 @@
                 "copula, to be"
             ],
             "noun": [
-                "existence, being"
+                "existence, being",
+                "state, condition"
             ]
         }
     },
@@ -117,5 +118,27 @@
                 "_(auxiliary)_ to be able to; to be capable of"
             ]
         }
+    },
+    "3Slh9AqT": {
+        "def": {
+            "verb": [
+                "to have as a quality of feature"
+            ]
+        }
+    },
+    "p259e7t3": {
+        "def": {
+            "verb": [
+                "_(intransitive)_ to go insane",
+                "_(transitive)_ to cause to go insane"
+            ],
+            "noun": [
+                "insanity"
+            ]
+        },
+        "par": [
+            "k4GSgTTX",
+            "lYZNclqm"
+        ]
     }
 }

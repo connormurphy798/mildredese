@@ -4,3 +4,4 @@
 _noun_
 
 - a person; a sentient entity
+- people, collectively

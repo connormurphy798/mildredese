@@ -40,6 +40,9 @@
         "def": {
             "noun": [
                 "a doer; an actor; one who performs an action in a particular situation"
+            ],
+            "verb": [
+                "a general purpose verb, as in English 'do'"
             ]
         }
     },
@@ -91,7 +94,8 @@
     "NSKSeqbJ": {
         "def": {
             "noun": [
-                "a person; a sentient entity"
+                "a person; a sentient entity",
+                "people, collectively"
             ]
         }
     },

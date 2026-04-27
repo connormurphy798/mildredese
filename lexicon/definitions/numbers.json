@@ -9,7 +9,8 @@
                 "falsehood"
             ],
             "adjective": [
-                "no; a lack of"
+                "no; a lack of",
+                "bad"
             ],
             "adverb": [
                 "not; negates a verb to which it is applied"
@@ -26,6 +27,9 @@
             ],
             "noun": [
                 "truth"
+            ],
+            "adjective": [
+                "good"
             ],
             "interjection": [
                 "expressing assent or excitement, as in 'yes'",

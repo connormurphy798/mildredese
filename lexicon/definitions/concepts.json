@@ -2,7 +2,8 @@
     "lYZNclqm": {
         "def": {
             "noun": [
-                "idea, concept"
+                "idea, concept",
+                "brain, mind"
             ]
         }
     },
@@ -17,11 +18,13 @@
         "def": {
             "noun": [
                 "speech, an utterance",
-                "language"
+                "language",
+                "knowledge"
             ],
             "verb": [
                 "_(transitive)_ to speak (to someone)",
-                "_(transitive)_ to say (something)"
+                "_(transitive)_ to say (something)",
+                "_(transitive)_ to know ([of] something)"
             ]
         }
     },
@@ -70,6 +73,40 @@
         "def": {
             "noun": [
                 "month"
+            ]
+        }
+    },
+    "c12lZS6w": {
+        "def": {
+            "noun": [
+                "a state of illness"
+            ]
+        },
+        "par": [
+            "1SwhcNcu",
+            "k4GSgTTX"
+        ]
+    },
+    "h1ux2jZR": {
+        "def": {
+            "noun": [
+                "behavior; action"
+            ],
+            "verb": [
+                "to behave; to act"
+            ]
+        }
+    },
+    "qfSWgiRS": {
+        "def": {
+            "noun": [
+                "feeling, emotion",
+                "heart, as in the organ",
+                "heart, as in the center of one's feelings"
+            ],
+            "verb": [
+                "_(intransitive)_ to feel a particularly strong emotion",
+                "_(transitive)_ to feel (a feeling)"
             ]
         }
     }
