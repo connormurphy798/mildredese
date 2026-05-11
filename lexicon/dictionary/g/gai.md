@@ -4,6 +4,7 @@
 _noun_
 
 - a doer; an actor; one who performs an action in a particular situation
+- a thing; general term for an object, concept, etc.
 
 _verb_
 

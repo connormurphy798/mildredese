@@ -48,7 +48,7 @@ def make_dictionary():
                 count += 1
     print(f"Wrote {count} entries to dictionary.")
     with open('dictionary/index.md', 'w', encoding='utf-8') as f:
-        f.write("# Temiudred lexicon\n\n")
+        f.write("# Dhemiudred lexicon\n\n")
         for filename in Path('dictionary').iterdir():
             if filename.is_dir():
                 for md_file in filename.iterdir():

@@ -39,7 +39,8 @@
     "md8CaBDW": {
         "def": {
             "noun": [
-                "a doer; an actor; one who performs an action in a particular situation"
+                "a doer; an actor; one who performs an action in a particular situation",
+                "a thing; general term for an object, concept, etc."
             ],
             "verb": [
                 "a general purpose verb, as in English 'do'"
@@ -225,5 +226,26 @@
             "PDLiFzGi",
             "zVzUdTXo"
         ]
+    },
+    "LuXWzELh": {
+        "def": {
+            "noun": [
+                "door, gate, window"
+            ]
+        },
+        "par": [
+            "yDDkh9sY",
+            "49mwSlQd"
+        ]
+    },
+    "ziZtTXdN": {
+        "def": {
+            "noun": [
+                "clothing"
+            ],
+            "verb": [
+                "to wear"
+            ]
+        }
     }
 }
