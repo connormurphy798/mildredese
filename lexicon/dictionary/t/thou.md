@@ -1,4 +1,4 @@
-# pthou
+# thou
 
 
 _noun_

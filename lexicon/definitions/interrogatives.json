@@ -1,0 +1,20 @@
+{
+    "kBV2ougD": {
+        "def": {
+            "pronoun": [
+                "what; used in questions to refer to the entity in question"
+            ]
+        }
+    },
+    "nVPbkVve": {
+        "def": {
+            "adverb": [
+                "why, for what reason"
+            ]
+        },
+        "par": [
+            "zan1k7Gb",
+            "kBV2ougD"
+        ]
+    }
+}

@@ -14,7 +14,8 @@
                 "_(transitive)_ to create, to bear"
             ],
             "noun": [
-                "origin, source, cause"
+                "origin, source, cause",
+                "reason, explanation"
             ]
         }
     },
@@ -23,6 +24,9 @@
             "verb": [
                 "_(transitive)_ to enjoy, to like",
                 "_(transitive)_ to want"
+            ],
+            "noun": [
+                "desire, want"
             ]
         }
     },
@@ -52,11 +56,13 @@
     "1SwhcNcu": {
         "def": {
             "verb": [
-                "copula, to be"
+                "copula, to be",
+                "(of an event) to happen, to occur"
             ],
             "noun": [
                 "existence, being",
-                "state, condition"
+                "state, condition",
+                "event, occurrence"
             ]
         }
     },
@@ -165,6 +171,34 @@
             ],
             "noun": [
                 "sound, noise"
+            ]
+        }
+    },
+    "1qWjShy9": {
+        "def": {
+            "verb": [
+                "_(intransitive)_ to dance"
+            ],
+            "noun": [
+                "a dance; an event at which dancing takes place"
+            ]
+        }
+    },
+    "rerL2zSI": {
+        "def": {
+            "verb": [
+                "_(transtive)_ protect, shield",
+                "rescue, save"
+            ]
+        }
+    },
+    "3cxbSTSZ": {
+        "def": {
+            "verb": [
+                "to fight or have conflict"
+            ],
+            "noun": [
+                "a fight"
             ]
         }
     }

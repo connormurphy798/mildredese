@@ -9,3 +9,4 @@ _verb_
 _noun_
 
 - origin, source, cause
+- reason, explanation
