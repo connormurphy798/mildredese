@@ -4,6 +4,9 @@
             "noun": [
                 "idea, concept",
                 "brain, mind"
+            ],
+            "verb": [
+                "to think"
             ]
         }
     },
@@ -43,6 +46,9 @@
             ],
             "adjective": [
                 "unpleasant, disgusting"
+            ],
+            "interjection": [
+                "used to express disgust, displeasure, or disappointment"
             ]
         }
     },
@@ -137,6 +143,36 @@
             "verb": [
                 "_(intransitive)_ to be scared",
                 "_(transitive)_ to be scared (of something)"
+            ]
+        }
+    },
+    "yb6SQk1h": {
+        "def": {
+            "noun": [
+                "a dream"
+            ],
+            "verb": [
+                "to dream"
+            ]
+        }
+    },
+    "mjR8CKdJ": {
+        "def": {
+            "noun": [
+                "ending, the terminal point of something"
+            ],
+            "verb": [
+                "to end, to be completed"
+            ]
+        }
+    },
+    "6hfxoMVL": {
+        "def": {
+            "noun": [
+                "start, beginning"
+            ],
+            "verb": [
+                "to start, to begin"
             ]
         }
     }

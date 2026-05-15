@@ -201,5 +201,35 @@
                 "a fight"
             ]
         }
+    },
+    "qXz1mmUW": {
+        "def": {
+            "verb": [
+                "to interact, to converse"
+            ]
+        }
+    },
+    "FG35NhST": {
+        "def": {
+            "verb": [
+                "to learn; to begin to know"
+            ]
+        },
+        "par": [
+            "3MJLUPfs",
+            "6hfxoMVL"
+        ]
+    },
+    "cqO7fz8U": {
+        "def": {
+            "verb": [
+                "to benefit, to generate a desirable outcome",
+                "to help, to assist"
+            ]
+        },
+        "par": [
+            "md8CaBDW",
+            "z0uIXa5w"
+        ]
     }
 }
